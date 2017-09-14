@@ -1,0 +1,10 @@
+form: {
+  name: '11111',
+  adress: '',
+  indro: '',
+  tel: '',
+  delivery: false,
+  type: [],
+  resource: '',
+  desc: ''
+},

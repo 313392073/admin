@@ -9,6 +9,10 @@ import Home from '../page/home.vue'
 import UserList from '../page/userList.vue'
 import shopList from '../page/shopList.vue'
 import foodList from '../page/foodList.vue'
+import orderList from '../page/orderList.vue'
+import adminList from '../page/adminList.vue'
+import addShop from '../page/addShop.vue'
+import addGoods from '../page/addGoods.vue'
 
 Vue.use(VueRouter)
 // const Hello = {template: '<div>hello world</div>'}
@@ -47,6 +51,30 @@ export default new VueRouter({
           name: 'foodList',
           component: foodList,
           meta: ['数据管理', '食品列表']
+        },
+        {
+          path: '/orderList',
+          name: 'orderList',
+          component: orderList,
+          meta: ['数据管理', '订单列表']
+        },
+        {
+          path: '/adminList',
+          name: 'adminList',
+          component: adminList,
+          meta: ['数据管理', '管理员列表']
+        },
+        {
+          path: '/addShop',
+          name: 'addShop',
+          component: addShop,
+          meta: ['添加数据', '添加商铺']
+        },
+        {
+          path: '/addGoods',
+          name: 'addGoods',
+          component: addGoods,
+          meta: ['添加数据', '添加商品']
         }
       ]
     }

@@ -16,3 +16,13 @@ export const getResturants = (data) => {
   console.log('22')
   // fetch('shopping/restaurants', data)
 }
+
+export const getResturantDetail = restaurantId => {
+  console.log(restaurantId)
+}
+export const getUserInfo = userId => {
+  console.log(userId)
+}
+export const getAddressById = addressId => {
+  console.log(addressId)
+}
